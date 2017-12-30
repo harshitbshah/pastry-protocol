@@ -1,0 +1,9 @@
+{application,project3,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"project3"},
+              {modules,['Elixir.Manager','Elixir.Pastry','Elixir.PastryNode',
+                        'Elixir.Utility']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]},
+              {extra_applications,[crypto]}]}.
